@@ -23,13 +23,11 @@ public class Ejercicio3 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
-
         String nombre;
-
         System.out.println("Introduce nombre del directorio o fichero");
-
         nombre = teclado.nextLine();
 
+        
         File file = new File(nombre);
 
         if (file.exists()) {
